@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Sederhana - Toko Komputer Nometall</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #125d8a;
+    }
+
+    /* Kotak FAQ */
+    .faq {
+      background-color: white;
+      border-radius: 5px;
+      margin: 10px auto;
+      padding: 10px;
+      width: 80%;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .pertanyaan {
+      font-weight: bold;
+      cursor: pointer;
+      background-color: #d9ebf7;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .jawaban {
+      display: none; /* disembunyikan dulu */
+      padding: 10px;
+      margin-top: 5px;
+      background-color: #eef6fb;
+      border-left: 3px solid #237dad;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>FAQ - Toko Komputer Nometall</h2>
+
+  <!-- FAQ 1 -->
+  <div class="faq">
+    <div class="pertanyaan" onclick="tampilJawaban(1)">
+      1. Apakah semua produk bergaransi?
+    </div>
+    <div class="jawaban" id="jawaban1">
+      Ya, semua produk memiliki garansi resmi antara 1 hingga 3 tahun, tergantung jenis produknya.
+    </div>
+  </div>
+
+  <!-- FAQ 2 -->
+  <div class="faq">
+    <div class="pertanyaan" onclick="tampilJawaban(2)">
+      2. Apakah Toko Komputer Nometall menerima pembelian online?
+    </div>
+    <div class="jawaban" id="jawaban2">
+      Ya, kami menerima pembelian secara online melalui website resmi dan marketplace terpercaya.
+    </div>
+  </div>
+
+  <!-- FAQ 3 -->
+  <div class="faq">
+    <div class="pertanyaan" onclick="tampilJawaban(3)">
+      3. Apakah tersedia layanan servis laptop?
+    </div>
+    <div class="jawaban" id="jawaban3">
+      Tentu! Kami melayani servis laptop dan komputer, seperti ganti RAM, SSD, dan instalasi software.
+    </div>
+  </div>
+
+  <!-- FAQ 4 -->
+  <div class="faq">
+    <div class="pertanyaan" onclick="tampilJawaban(4)">
+      4. Apakah Toko Komputer Nometall menerima pemasangan router?
+    </div>
+    <div class="jawaban" id="jawaban4">
+      Ya, kami menerima pemasangan router langsung ke tempat lokasi.
+    </div>
+  </div>
+  
+  <!-- FAQ 5 -->
+  <div class="faq">
+    <div class="pertanyaan" onclick="tampilJawaban(5)">
+      5. Apakah Tersedia layanan Merakit Komputer/PC?
+    </div>
+    <div class="jawaban" id="jawaban5">
+      Ya, kami menerima pelayanan  Merakit Komputer.
+    </div>
+  </div>
+
+  <!-- FAQ 6 -->
+  <div class="faq">
+    <div class="pertanyaan" onclick="tampilJawaban(6)">
+      6.Apakah harga di toko sama dengan harga di website?
+    </div>
+    <div class="jawaban" id="jawaban6">
+      Harga di website biasanya sama dengan harga di toko. Namun, 
+      terkadang bisa berbeda jika ada promo atau diskon khusus online.  
+    </div>
+  </div>
+
+  <!-- FAQ 7 -->
+  <div class="faq">
+    <div class="pertanyaan" onclick="tampilJawaban(7)">
+      7.Apakah Toko Komputer Nometall melayani pengiriman ke luar Kota Pati??
+    </div>
+    <div class="jawaban" id="jawaban7">
+      Ya, kami melayani pengiriman ke seluruh Indonesia melalui jasa ekspedisi terpercaya.
+    </div>
+  </div>
+
+  <!-- FAQ 8 -->
+  <div class="faq">
+    <div class="pertanyaan" onclick="tampilJawaban(8)">
+      8.Jenis kerusakan apa saja yang bisa diperbaiki di Nometall??
+    </div>
+    <div class="jawaban" id="jawaban8">
+      Mulai dari kerusakan software, instalasi ulang, upgrade hardware, 
+      hingga perbaikan motherboard dan layar laptop.
+    </div>
+  </div>
+
+  <!-- FAQ 9 -->
+  <div class="faq">
+    <div class="pertanyaan" onclick="tampilJawaban(9)">
+      9.Berapa lama waktu yang dibutuhkan untuk servis?
+    </div>
+    <div class="jawaban" id="jawaban9">
+      Tergantung jenis kerusakan, biasanya antara 1–5 hari kerja.
+    </div>
+  </div>
+
+  <!-- FAQ 10 -->
+  <div class="faq">
+    <div class="pertanyaan" onclick="tampilJawaban(10)">
+      10.Apakah ada nomor WhatsApp resmi Nometall?
+    </div>
+    <div class="jawaban" id="jawaban10">
+      Ya, nomor WhatsApp resmi kami adalah 081376733660.
+    </div>
+  </div>
+
+  <script>
+    // Fungsi sederhana untuk menampilkan jawaban
+    function tampilJawaban(no) {
+      var jawaban = document.getElementById("jawaban" + no);
+      if (jawaban.style.display === "none") {
+        jawaban.style.display = "block";
+      } else {
+        jawaban.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>

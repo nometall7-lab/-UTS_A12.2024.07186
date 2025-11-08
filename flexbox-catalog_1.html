@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog Komputer Nometall</title>
+  <link rel="stylesheet" href="/css/style04.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  
+    <style>
+    .jumbo {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                  url(/asset/new.jpg);
+                  
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 120px 20px;
+    }
+   
+      .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url(/asset/new.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 120px 20px;
+      }
+      .hero h1 {
+        font-weight: 700;
+      }
+
+    .dark-mode {
+      background-color:rgb(27, 107, 164) ;
+      color:rgb(14, 13, 13);
+    }
+
+
+    </style>
+</head>
+
+<body>
+
+  <!-- div class="header">
+    <h1>Toko Komputer Nometall</h1>
+    <p>Toko Komputer Terlaris</p>
+  </div>
+
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Produk</a>
+    <a href="#">Promo</a>
+    <a href="#">Tentang Kami</a>
+    <a href="#">Kontak</a>
+  </nav -->
+
+
+<nav class="navbar navbar-expand-lg navbar-warning sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Toko Komputer Nometall</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Tentang Kami</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="FAQsederhana.html">FAQ</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Kategori Produk
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#mouse">Mouse</a></li>
+            <li><a class="dropdown-item" href="#monitor">Monitor</a></li>
+            <li><a class="dropdown-item" href="#keyboard">Keyboard</a></li>
+            <li><a class="dropdown-item" href="#casing">Casing</a></li>
+            <li><a class="dropdown-item" href="#memori">Memori</a></li>
+            <li><a class="dropdown-item" href="#aksesoris">Aksesoris</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontak</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="promo.html">Promo</a>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="cari" aria-label="Cari"/>
+        <button class="btn btn-outline-success" type="submit">Pencarian</button>
+      </form>
+
+       <button onclick="toggleMode()">Ganti Mode 🌗</button>
+      
+      <script>
+          function toggleMode() {
+            document.body.classList.toggle("dark-mode");
+          }
+        </script>
+
+    </div>
+  </div>
+</nav>
+
+ 
+   <!--  Pengganti Jumbotron) -->
+      <div class="jumbotron jumbotron-fluid text-white" 
+      style="background:url(/asset/new.jpg);">
+        <div class="container text-center">
+        <h1 class="display-1">Selamat Datang di Toko Komputer Nometall</h1>
+        <p class="lead">Toko terbaik untuk pembelian komputer</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="#produk" role="button" style="background-color: rgb(4, 13, 91);">Lihat Kategori Produk</a>
+        </div>
+      </div>
+
+ <!-- Hero Section (Pengganti Jumbotron) -->
+  <!-- section class="hero text-center d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Selamat Datang di Toko Komputer Sejahtera</h1>
+      <p class="lead mt-3 mb-4">
+        Menyediakan produk komputer terbaik dengan harga terjangkau dan kualitas terpercaya.
+      </p>
+      <a href="#produk" class="btn btn-primary btn-lg px-4 me-2">Lihat Produk</a>
+      <a href="#kontak" class="btn btn-outline-light btn-lg px-4">Hubungi Kami</a>
+    </div>
+  </section -->
+  
+
+
+  <div class="container">
+    <div class="sidebar">
+      <h3>Kategori</h3>
+      <ul>
+        <li><a href="#mouse">Mouse</a></li>
+        <li><a href="#monitor">Monitor</a></li>
+        <li><a href="#keyboard">Keyboard</a></li>
+        <li><a href="#casing">Casing</a></li>
+        <li><a href="#memori">Memori</a></li>
+        <li><a href="#aksesoris">Aksesoris</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2>Tentang Kami</h2>
+      <p>Toko Komputer Nometall dikenal memiliki koleksi produk yang lengkap dan selalu mengikuti perkembangan teknologi terkini.
+         Berbagai merek ternama seperti Asus, Lenovo, Acer, HP, dan Dell tersedia dengan beragam pilihan spesifikasi sesuai kebutuhan pengguna.
+         Tak hanya itu, Nometall juga menyediakan layanan perbaikan komputer dan laptop dengan teknisi profesional yang berpengalaman,
+         ehingga pelanggan tidak perlu khawatir ketika mengalami masalah pada perangkat mereka.
+          Salah satu keunggulan utama Toko Komputer Nometall adalah pelayanan after-sales yang memuaskan. Setiap pembelian produk dilengkapi dengan garansi resmi
+          dan dukungan teknis yang siap membantu pelanggan kapan pun dibutuhkan. Selain itu, toko ini juga sering mengadakan promo menarik dan diskon khusus bagi pelanggan setia,
+          menjadikannya semakin diminati oleh masyarakat luas.
+        </p>
+    </div>
+  </div>    
+
+  <section id="produk"></section>
+  <div class="container">
+            <div class="content">
+                <h3>Kategori Produk</h3>
+                <div class="catalog-container">
+                    <div class="product-card">
+                        <img src="/asset/m1.jpg" alt="Produk 3">
+                        <h3>Mouse</h3>
+
+                        <button><a href="#mouse">Detail</a></button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="/asset/mn1.jpg" alt="Produk 2">
+                        <h3>Monitor</h3>
+                        <button><a href="#monitor">Detail</a></button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="/asset/k1.jpg" alt="Produk 1">
+                        <h3>Keyboard</h3>
+                        <button><a href="#keyboard">Detail</a></button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="/asset/c1.jpg" alt="Produk 4">
+                        <h3>Casing</h3>
+                        <button><a href="#casing">Detail</a></button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="/asset/mm1.jpg" alt="Produk 5">
+                        <h3>Memori</h3>
+                        <button><a href="#memori">Detail</a></button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="/asset/acc1.jpg" alt="Produk 5">
+                        <h3>Accessories</h3>
+                        <button><a href="#accessories">Detail</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="mouse">
+            <div class="container">
+                <div class="content">
+                    <h2>Jenis Mouse</h2>
+                    <div class="catalog-container">
+                        <div class="product-card">
+                            <img src="/asset/m3.jpg" alt="Produk 3">
+                            <h3>Rp.125.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/m2.jpg" alt="Produk 2">
+                            <h3>Rp.160.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/m4.jpg" alt="Produk 2">
+                            <h3>Rp.210.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/m5.jpg" alt="Produk 4">
+                            <h3>Rp.150.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/m9.jpg" alt="Produk 5">
+                            <h3>Rp.130.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/m6.jpg" alt="Produk 5">
+                            <h3>Rp.155.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/m7.jpg" alt="Produk 6">
+                            <h3>Rp.550.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/m8.jpg" alt="Produk 7">
+                            <h3>Rp.430.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                    </div>
+                        <a href="#top">Kembali keatas</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="monitor">
+            <div class="container">
+                <div class="content">
+                    <h2>Jenis Monitor</h2>
+                    <div class="catalog-container">
+                        <div class="product-card">
+                            <img src="/asset/mn2.jpg" alt="Produk 3">
+                            <h3>Rp.1.250.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mn3.jpg" alt="Produk 2">
+                            <h3>Rp.1.100.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mn4.jpg" alt="Produk 2">
+                            <h3>Rp.2.400.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mn5.jpg" alt="Produk 4">
+                            <h3>Rp.1.500.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mn6.jpg" alt="Produk 5">
+                            <h3>Rp.2.000.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mn7.jpg" alt="Produk 5">
+                            <h3>Rp.3.000.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mn8.jpg" alt="Produk 6">
+                            <h3>Rp.1.700.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mn9.jpg" alt="Produk 7">
+                            <h3>Rp.4.000.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                    </div>
+                        <a href="#top">Kembali keatas</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="keyboard">
+            <div class="container">
+                <div class="content">
+                    <h2>Jenis Keyboard</h2>
+                    <div class="catalog-container">
+                        <div class="product-card">
+                            <img src="/asset/k2.jpg" alt="Produk 3">
+                            <h3>Rp.100.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/k3.jpg" alt="Produk 2">
+                            <h3>Rp.150.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/k4.jpg" alt="Produk 2">
+                            <h3>Rp.240.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/k5.jpg" alt="Produk 4">
+                            <h3>Rp.400.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/k6.jpg" alt="Produk 5">
+                            <h3>Rp.300.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/k7.jpg" alt="Produk 5">
+                            <h3>Rp.1.000.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/k8.jpg" alt="Produk 6">
+                            <h3>Rp.1.200.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/k9.jpg" alt="Produk 7">
+                            <h3>Rp.700.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                    </div>
+                        <a href="#top">Kembali keatas</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="casing">
+            <div class="container">
+                <div class="content">
+                    <h2>Jenis Casing</h2>
+                    <div class="catalog-container">
+                        <div class="product-card">
+                            <img src="/asset/c3.jpg" alt="Produk 3">
+                            <h3>Rp.600.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/c2.jpg" alt="Produk 2">
+                            <h3>Rp.400.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/c4.jpg" alt="Produk 2">
+                            <h3>Rp.750.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/c5.jpg" alt="Produk 4">
+                            <h3>Rp.500.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/c6.jpg" alt="Produk 5">
+                            <h3>Rp.870.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/c7.jpg" alt="Produk 5">
+                            <h3>Rp.990.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/c8.jpg" alt="Produk 6">
+                            <h3>Rp.1.400.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/c9.jpg" alt="Produk 7">
+                            <h3>Rp.1.700.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                    </div>
+                        <a href="#top">Kembali keatas</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="memori">
+            <div class="container">
+                <div class="content">
+                    <h2>Jenis Memori</h2>
+                    <div class="catalog-container">
+                        <div class="product-card">
+                            <img src="/asset/mm2.jpg" alt="Produk 3">
+                            <h3>Rp.170.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mm3.jpg" alt="Produk 2">
+                            <h3>Rp.199.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mm4.jpg" alt="Produk 2">
+                            <h3>Rp.340.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mm5.jpg" alt="Produk 4">
+                            <h3>Rp.560.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mm1.jpg" alt="Produk 5">
+                            <h3>Rp.1.100.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mm7.jpg" alt="Produk 5">
+                            <h3>Rp.800.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mm8.jpg" alt="Produk 6">
+                            <h3>Rp.1.200.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/mm9.jpg
+                            " alt="Produk 7">
+                            <h3>Rp.1.570.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                    </div>
+                        <a href="#top">Kembali keatas</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="accessories">
+            <div class="container">
+                <div class="content">
+                    <h2>Jenis Accessories</h2>
+                    <div class="catalog-container">
+                        <div class="product-card">
+                            <img src="/asset/acc2.jpg" alt="Produk 3">
+                            <h3>Rp.250.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/acc3.jpg" alt="Produk 2">
+                            <h3>Rp.400.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/acc4.jpg" alt="Produk 2">
+                            <h3>Rp.550.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/acc5.jpg" alt="Produk 4">
+                            <h3>Rp.110.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/acc6.jpg" alt="Produk 5">
+                            <h3>Rp.285.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/acc7.jpg" alt="Produk 5">
+                            <h3>Rp.1.700.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/acc8.jpg" alt="Produk 6">
+                            <h3>Rp.450.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/asset/acc9.jpg" alt="Produk 7">
+                            <h3>Rp.500.000</h3>
+                            <button>Beli</button>
+                        </div>
+
+                    </div>
+                        <a href="#top">Kembali keatas</a>
+                </div>
+            </div>
+        </section>
+
+
+
+  <footer>
+    <html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Kontak - Toko Komputer Nometall</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #125d8a;
+    }
+
+    form {
+      max-width: 500px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #100000e4;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #125d8a;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background-color: #0b4f70;
+    }
+
+    .error {
+      color: red;
+      font-size: 13px;
+    }
+
+    .success {
+      color: green;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Hubungi Kami</h2>
+  <form id="contactForm" onsubmit="return validateForm()">
+    <label for="nama">Nama Lengkap:</label>
+    <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda">
+    <span id="namaError" class="error"></span>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Masukkan email Anda">
+    <span id="emailError" class="error"></span>
+
+    <label for="pesan">Pesan:</label>
+    <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan Anda di sini..."></textarea>
+
+    <button type="submit">Kirim Pesan</button>
+
+    <p id="successMsg" class="success"></p>
+  </form>
+  <form action="#" method="post">
+  <h2>Form Data Customer</h2>
+
+  <label for="nama">Nama:</label><br>
+  <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required><br><br>
+
+  <label for="alamat">Alamat:</label><br>
+  <textarea id="alamat" name="alamat" rows="3" cols="30" placeholder="Masukkan alamat lengkap" required></textarea><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="contoh@email.com" required><br><br>
+
+  <label for="kota">Kota:</label><br>
+  <select id="kota" name="kota" required>
+    <option value="">--Pilih Kota--</option>
+    <option value="semarang">Semarang</option>
+    <option value="yogyakarta">Yogyakarta</option>
+    <option value="surabaya">Surabaya</option>
+  </select><br><br>
+
+  <label for="provinsi">Provinsi:</label><br>
+  <select id="provinsi" name="provinsi" required>
+    <option value="">--Pilih Provinsi--</option>
+    <option value="jateng">Jawa Tengah</option>
+    <option value="jatim">Jawa Timur</option>
+    <option value="diy">Daerah Istimewa Yogyakarta</option>
+  </select><br><br>
+
+  <label for="nohp">No HP:</label><br>
+  <input type="text" id="nohp" name="nohp" placeholder="08xxxxxxxxxx" required><br><br>
+
+  <input type="submit" value="Kirim Data">
+</form>
+
+  <script>
+    function validateForm() {
+      // Ambil elemen input
+      let nama = document.getElementById("nama").value.trim();
+      let email = document.getElementById("email").value.trim();
+      let namaError = document.getElementById("namaError");
+      let emailError = document.getElementById("emailError");
+      let successMsg = document.getElementById("successMsg");
+
+      // Reset pesan error dan sukses
+      namaError.textContent = "";
+      emailError.textContent = "";
+      successMsg.textContent = "";
+
+      let valid = true;
+
+      // Validasi Nama
+      if (nama === "") {
+        namaError.textContent = "Nama wajib diisi!";
+        valid = false;
+      }
+
+      // Validasi Email
+      if (email === "") {
+        emailError.textContent = "Email wajib diisi!";
+        valid = false;
+      } else if (!email.includes("@") || !email.includes(".")) {
+        emailError.textContent = "Format email tidak valid!";
+        valid = false;
+      }
+
+      // Jika semua valid
+      if (valid) {
+        successMsg.textContent = "Terima kasih! Pesan Anda berhasil dikirim.";
+        document.getElementById("contactForm").reset();
+      }
+
+      return false; // mencegah form dikirim (karena ini contoh)
+    }
+  </script>
+
+</body>
+</html>
+    &copy; 2025 Toko Komputer Nometall. Bagas Cahyo Saputra A12.2024.07186.
+  </footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
